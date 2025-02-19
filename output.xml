@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1 (Python 3.10.2 on win32)" generated="2025-02-14T14:11:24.785186" rpa="false" schemaversion="5">
+<suite id="s1" name="Testi" source="c:\Users\oansa\Desktop\Koulu\Liiketoimintaprosessien automatisointi\Ohjelmisto-Robotiikka-projekti\testi.robot">
+<test id="s1-t1" name="Read CSV Data" line="9">
+<kw name="Read Csv File To Associative" owner="CSVLibrary">
+<msg time="2025-02-14T14:11:24.852186" level="INFO">${data} = []</msg>
+<var>${data}</var>
+<arg>${CSV FILE}</arg>
+<doc>Read CSV file and return its content as a Python list of dictionaries.</doc>
+<status status="PASS" start="2025-02-14T14:11:24.850184" elapsed="0.008002"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-02-14T14:11:24.860187" level="INFO">[]</msg>
+<arg>${data}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-02-14T14:11:24.859188" elapsed="0.002001"/>
+</kw>
+<status status="PASS" start="2025-02-14T14:11:24.848186" elapsed="0.017002"/>
+</test>
+<status status="PASS" start="2025-02-14T14:11:24.795182" elapsed="0.095007"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Testi">Testi</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
