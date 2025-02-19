@@ -2,6 +2,7 @@
 Library    DatabaseLibrary
 
 
+
 *** Variables ***
 ${dbname}    rpakurssi
 ${dbuser}    robotuser
@@ -9,6 +10,7 @@ ${dbpass}    password
 ${dbhost}    localhost
 ${dbport}    3306
 
+#tämä on kommentti
 
 *** Keywords ***
 Make Connection
@@ -38,6 +40,7 @@ Insert Data To db
     Execute Sql String    ${insertStmt}
 
     Disconnect From Database
+
 
 
 
